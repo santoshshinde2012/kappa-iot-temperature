@@ -1,0 +1,6 @@
+kafka:
+  bootstrap_servers: "localhost:29092"
+  topic: "temperature-data"
+logging:
+  level: "INFO"
+  file: "logs/app.log"

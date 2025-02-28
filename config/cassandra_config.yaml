@@ -1,0 +1,8 @@
+cassandra:
+  contact_points: "localhost"  # Changed from "cassandra" for local execution
+  port: 9042
+  keyspace: "iot_temperature"
+  table: "temperature_results"
+logging:
+  level: "INFO"
+  file: "logs/app.log"
