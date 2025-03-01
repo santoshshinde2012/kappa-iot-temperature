@@ -92,7 +92,7 @@ def connect_cassandra():
         return None, None
 
 def main():
-    st.title("Kappa IoT Temperature Monitoring Dashboard")
+    st.title("Temperature Monitoring Dashboard")
     
     if 'session' not in st.session_state or 'cluster' not in st.session_state:
         st.session_state.session, st.session_state.cluster = connect_cassandra()
