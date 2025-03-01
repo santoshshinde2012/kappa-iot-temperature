@@ -95,8 +95,8 @@ docker compose up -d
 ```
 
 - Verify Kafka UI: Check http://localhost:9090 for Kafka UI.
-- Creatte Kafka Topic (with temperature-data).
-
+- Create Kafka Topic (with temperature-data).
+- Verify Cassandra: http://localhost:3000/ for Cassandra UI.
 
 
 #### 2. Train the Anomaly Detection Model (Terminal 1)
